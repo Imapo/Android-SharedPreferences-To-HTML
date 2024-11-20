@@ -11,6 +11,7 @@ import android.webkit.JavascriptInterface
 import android.content.SharedPreferences
 
 class MainActivity : AppCompatActivity() {
+    private lateinit var webView: WebView
     private lateinit var sharedPreferences: SharedPreferences
 
     override fun onCreate(savedInstanceState: Bundle?) {
